@@ -1,0 +1,29 @@
+//to install 
+npx create-react-app react-intro
+
+//react-intro is a file name
+
+
+
+
+
+//run the appliction
+cd react-intro 
+npm start
+
+
+
+
+
+
+//To install router open git bash terminal 
+ls
+cd file-name
+npm install react-router-dom@6
+
+
+//to make global api link from backend
+npm i -g json-server
+json-server --port 1010 --watch db.json
+
+

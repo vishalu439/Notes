@@ -1,0 +1,29 @@
+
+
+git config --global user.name "Pradeep2888"
+
+
+git config --global user.email "pradeeptiwari@gmail.com"
+
+
+git init
+(   respository    link   )
+
+
+git add .
+
+
+git commit -m "first commit"
+
+
+
+
+
+
+To update
+
+git add .
+git commit -m "write any mening full message"
+git push
+
+

@@ -1,0 +1,44 @@
+sheelu,shailendra
+
+create git repository with README.md
+create folder=>open with vs code=>open terminal=>write git clone repo-url =>close vs code
+open cloned folder with vs code =>npm install json-server => json-server --watch db.json --port 3004 => npm init
+
+create index.js => copy the code and paste
+
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const router = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults()
+const port=process.env.PORT||3000 
+server.use(middlewares)
+server.use(router)
+server.listen(port, () => {  
+  console.log('JSON Server is running')
+})
+
+open package.json => go to line no 11 paste the line
+
+"start":"node index.js",
+
+create .gitignore => write in line no.1 
+
+node_modules/
+
+open terminal=> heroku login => heroku create => git add . => git commit -m "hi" => git push heroku main
+
+open a link writen in after heroku create comand (ex=https://lit-fortress-46800.herokuapp.com/)
+
+
+
+
+
+
+to create new route 
+create new route in db.json
+and write comand on terminal=> heroku login => heroku create => git add . => git commit -m "hi" => git push heroku main
+
+
+
+
+

@@ -1,0 +1,5 @@
+go to terminal
+write=>npm run build
+and go to netlify select folder upload and select built folder and add is deployed
+
+Note : dont use drag drop option
